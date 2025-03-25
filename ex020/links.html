@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: 'Montserrat';
+        }
+
+        a{
+            color: brown;
+            text-decoration: none;
+            font-weight: bold;
+
+        }
+
+        a:visited{
+            color: cadetblue;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: rgb(252, 0, 0);
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        .especial::before{
+            content: '\002669';
+        }
+        
+        .especial{
+            background-color: rgb(18, 37, 32);
+        }
+
+        .especial::after{
+            content: '\002669';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.albumoftheyear.org/user/kkapivara/" target="_blank">Aoty</a></li>
+        <li><a href="https://www.last.fm/pt/user/Kkapivara" target="_blank" class="especial">Last.fm</a></li>
+        <li><a href="https://br.pinterest.com/yongdsn/" target="_blank">Pinterest</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+body{
+    background-color: #e0aada;
+    font-family: 'Montserrat';
+}
+
+h1 {
+    color: #9C098A;
+    text-align: center;
+}
+
+h1#principal {
+    text-align: center;
+    color: rgb(238, 238, 238);
+    background-color: #7A076D;
+}
+
+h2 {
+    color: #E80ECF;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+p{
+    color: #7A076D;
+}
+
+.basico{
+    color: #b6210d;
+}
+
+.intermediario {
+    color: #3f7a07;
+}
+
+.avancado {
+    color: #07507a;
+}
+
+.destaque{
+    background-color: #7b00e05e;
+}

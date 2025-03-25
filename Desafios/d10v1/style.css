@@ -1,0 +1,147 @@
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #84E1AD;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+header{
+    background-image: linear-gradient(to top, #1A5C38, #3BD47F);
+    margin: -8px -8px 0px -8px;
+}
+
+header > h1{
+    color: white;
+    font: normal 3em 'Bebas Neue';
+    text-align: center;
+    margin: 0px;
+    padding: 15px 0px 0px 0px;
+}
+
+header > p{
+    color: white;
+    font: italic 14px 'Montserrat';
+    text-align: center;
+    margin: 5px 0px 20px 0px;
+}
+
+nav{
+    margin: 15px;
+    padding: 8px;
+}
+
+nav > a{
+    font-family: 'Montserrat';
+    color: white;
+    text-decoration: none;
+    padding: 7px 22px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+a.navegacao:hover{
+    background-color: #1A5C38;
+}
+
+header > a:visited{
+    color: white;
+}
+
+main{
+    background-color: white;
+    width: 950px;
+    margin: -15px auto 0px auto;
+    border-radius: 0px 0px 15px 15px;
+}
+
+section{
+    display: grid;
+    padding: 0px 25px;
+}
+
+section > p{
+    line-height: 1.8;
+    font-weight: 500;
+}
+
+h1{
+    font-family: 'idroid';
+    color: #2B6746;
+    font-size: 2em;
+}
+
+h2{
+    font-family: 'idroid';
+    color: #2B6746;
+    background-image: linear-gradient(to right, #aaf3cb, rgba(255, 255, 255, 0.291));
+}
+
+span{
+    color: #2B6746;
+    font-weight: 700;
+}
+
+a{
+    color: #1A5C38;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+section.video{
+    background-color: #1A5C38;
+    height: 500px;
+    margin: 20px -25px;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+}
+
+article{
+    background-color: #C5EBD6;
+    padding: 0px 15px 0px 15px;
+    border-radius: 10px;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.225);
+}
+
+h3{
+    color: white;
+    background-color: #3BD47F;
+    font-size: 20px;
+    margin: 0px -14px 0px -14px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+ul{
+    display: inline-block;
+    inline-size: 240px;
+    padding: 15px;
+    margin-right: 90px;
+    margin: 10px 90px 10px 0px;
+}
+
+footer{
+    background-color: #1A5C38;
+    color: white;
+    margin: 18px -8px -10px -8px;
+    text-align: center;
+    padding: 9px 0px;
+}
+
+footer > p{
+    margin: 0px;
+    font-weight: 600;
+}

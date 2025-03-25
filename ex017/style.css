@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    font-family: Montserrat;
+    /*Medidas Absolutas
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+    16px geralmente = 1em
+
+    Medidas recomendadas px e em
+    */
+
+    font-size: 1.5em;
+}
+
+h1 {
+    font: bolder 2em 'Montserrat';
+    /*font style - font weight - font size - font family*/
+}

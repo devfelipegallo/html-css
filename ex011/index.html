@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="Imagen flexível">
+    </picture>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/casa_pequena.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/casa_media.png" type="image/png">
+        <img src="imagens/casa grande.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5</p>
+    <audio src="media/meet_the_grahams.mp3" controls></audio>
+    <!-- MP3 WAV OGG-->
+     <audio preload="metadata" controls loop>
+        <source src="media/meet_the_grahams.mp3" type="audio/mpeg">
+     </audio>
+     <ul>
+        <li><button><a href="media/meet_the_grahams.mp3" download="meet_the_grahams.mp3" target="_blank">download musica</a></button></li>
+        <li><a href="media/estudo html3.psd" download="estudos.psd" type="image/vnd.adobe.photoshop">photoshop</a></li>
+        <li><a download="kendrick.ogg" href="media/kendrick.ogg">kendrick</a></li>
+        <li><a href="media/04 - Primeiros passos HTML.pdf" download="primeiros passos html.pdf" type="application/pdf">nome</a></li>
+     </ul>
+
+     <audio preload="metadata" controls src="media/meet_the_grahams.mp3">
+     </audio>
+     <p><button>Baixe o arquivo em formato de audio <source src="media/meet_the_grahams.mp3">.mp3</button></p>
+     <a href="media/meet_the_grahams.mp3" download="musica.mp3">Baixe!</a>
+</body>
+</html>
