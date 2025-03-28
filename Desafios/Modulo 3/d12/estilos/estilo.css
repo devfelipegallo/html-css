@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+    color: white;
+    margin: auto;
+    height: 335px;
+}
+
+h1{
+    font-family: 'Passion One';
+    font-size: 11em;
+    text-align: center;
+}
+
+h1 span{
+    font-size: 140px;
+}
+
+header p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+main{
+    font-family: 'Sriracha';
+    font-size: 70px;
+    line-height: 130px;
+}
+
+div{
+    padding: 30px;
+}
+
+div.q1{
+    background-color: white;
+    height: 1180px;
+    text-align: left;
+}
+
+div#girasol{
+    background: white url(../imagens/background001.jpg) center center no-repeat fixed  ;
+    color: white;
+}
+
+div#girasol p{
+    background-color: rgba(0, 0, 0, 0.808);
+}
+
+div#folhas{
+    background: white url(../imagens/background002.jpg) center center no-repeat fixed;
+}
+
+#contain{
+    position: relative;
+    background-size: 100% 100%;
+}
+
+#conteudo{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0%, -50%);
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
