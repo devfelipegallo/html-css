@@ -8,22 +8,22 @@
 
 header{
     background-color: black;
-    color: white;
-    margin: auto;
-    height: 335px;
+    height: 320px;
 }
 
 h1{
+    color: white;
     font-family: 'Passion One';
-    font-size: 11em;
+    font-size: 9em;
     text-align: center;
 }
 
-h1 span{
-    font-size: 140px;
+span{
+    font-size: 70px;
 }
 
 header p{
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
@@ -31,60 +31,102 @@ header p{
 header a{
     color: white;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: BOLD;
 }
 
 header a:hover{
     text-decoration: underline;
 }
 
-main{
-    font-family: 'Sriracha';
-    font-size: 70px;
-    line-height: 130px;
-}
-
-div{
-    padding: 30px;
-}
-
-div.q1{
-    background-color: white;
-    height: 1180px;
-    text-align: left;
-}
-
-div#girasol{
-    background: white url(../imagens/background001.jpg) center center no-repeat fixed  ;
-    color: white;
-}
-
-div#girasol p{
-    background-color: rgba(0, 0, 0, 0.808);
-}
-
-div#folhas{
-    background: white url(../imagens/background002.jpg) center center no-repeat fixed;
-}
-
-#contain{
+#container_header{
     position: relative;
-    background-size: 100% 100%;
 }
 
-#conteudo{
+#conteudo_header{
     position: absolute;
     top: 50%;
-    left: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#conteudo_creditos{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 400%);
+}
+
+main{
+    font-family: 'Sriracha';
+    font-size: 65px;
+}
+
+
+div.q1{
+    margin: 120px 0px;
+}
+
+div.q1 > p{
+    padding: 20px;
+}
+
+#container_girasol{
+    position: relative;
+    background: white url(../imagens/background001.jpg) center center no-repeat fixed;
+    height: 1000px;
+
+}
+
+#conteudo_girasol{
+    position: absolute;
+    top: 50%;
     transform: translate(0%, -50%);
+    display: block;
+    height: auto;
+    padding: 20px;
+
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+
+    min-width: 375px;
+    max-width: 1100px;
+}
+
+#container_folhas{
+    position: relative;
+    background: white url(../imagens/background002.jpg) center center no-repeat fixed;
+    height: 1000px;
+}
+
+#conteudo_folhas{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+
+    background-color: rgba(0, 0, 0, 0.685);
+    color: white;
+    padding: 20px;
+
+    min-width: 375px;
+    max-width: 1100px;
 }
 
 footer{
     background-color: black;
-    color: white;
 }
 
 footer p{
+    color: white;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat';
+    padding: 10px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
 }
